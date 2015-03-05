@@ -5,6 +5,7 @@ With this Library we can generate a Token on Server 1 and verify it on Server 2.
 
 ## Configuration
 There are three Environement Variables, which can be set:
+
  * `MEDIAHEAD_TOKEN_SECRET` - Set the Secret. It has to be the same on every Application, otherwise this won't validate.
  * `MEDIAHEAD_TOKEN_MAXAGE` - Set the Max Age of a Token in seconds. Defaults to 60 seconds.
  * `MEDIAHEAD_TOKEN_IDENTIFIER` - Default Identifier for Token generation.
