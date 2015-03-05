@@ -1,0 +1,20 @@
+{
+  "name": "mediahead-token",
+  "version": "0.0.1",
+  "description": "Token Generator and Verifier for Mediahead",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:maennchen/mediahead-token.git"
+  },
+  "keywords": [
+    "token",
+    "mediahead",
+    "hash"
+  ],
+  "author": "Jonatan Männchen <jonatan.mannchen@mediahead.com>",
+  "license": "All Rights Reserved"
+}
