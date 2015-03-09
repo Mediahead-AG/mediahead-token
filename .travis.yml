@@ -5,9 +5,12 @@ node_js:
   - "0.10"
   - "iojs"
   - "iojs-v1.0.4"
+script:
+  - npm install
+  - npm run test
+  - npm run coverage
 addons:
   code_climate:
     repo_token: ec409742f9f3663f1f84dcea7164784e5f61a2d358ae935da50abb2ac5c8a1b4
 after_script:
-  - npm run coverage
   - cat coverage/lcov.info | codeclimate
