@@ -1,6 +1,7 @@
 # Mediahead Token
 [![npm version](https://badge.fury.io/js/mediahead-token.svg)](http://badge.fury.io/js/mediahead-token)
 [![Code Climate](https://codeclimate.com/github/Mediahead-AG/mediahead-token/badges/gpa.svg)](https://codeclimate.com/github/Mediahead-AG/mediahead-token)
+[![Build Status](https://travis-ci.org/Mediahead-AG/mediahead-token.svg)](https://travis-ci.org/Mediahead-AG/mediahead-token)
 
 Mediahead Token is meant to create Authorization between our own Applications.
 
